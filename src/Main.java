@@ -2,8 +2,8 @@ public class Main
 {
         public static void main(String[] args)
         {
-                String name = "FRederIK";
-                String efternavn = "Lokimoki";
+                String name = "Herkules";
+                String efternavn = "Kattepine";
                 myInterfaceHandler(name, efternavn);
 
                 MyFrame myFrame = new MyFrame();
@@ -25,7 +25,7 @@ public class Main
                 MyInterface myInterface1 = (y) ->
                 {
                         System.out.println("Jeg hedder hundefar!!");
-                        System.out.println("Men jeg hedder FIiIiiIiiIiiskemanden til efternavn! måske jeg også hedder: " + y);
+                        System.out.println("måske jeg også hedder: " + y);
                 };
                 //implementation with lambda with two arguments
                 MyInterface2 myInterface2 = (x, y) -> System.out.println("EJg hedder det følgende som sådan: " + x + " " + y);
